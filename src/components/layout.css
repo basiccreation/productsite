@@ -3,6 +3,10 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
+.icon {
+  font-size: 7.5rem;
+}
 body {
   margin: 0;
 }
