@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Math is Beautiful`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Kick  your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@pia`,
+    giraffe: `this is very a giraffe`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

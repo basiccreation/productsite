@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-
+import Section from "../components/section/section"
 import "./bootstrap.css"
 import "./layout.css"
 //import "../sass/layout.scss"
@@ -21,6 +21,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+        <Section />
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{

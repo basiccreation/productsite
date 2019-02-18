@@ -1,4 +1,5 @@
 import React from "react"
+import "./section.css"
 
 export default function section() {
     return (

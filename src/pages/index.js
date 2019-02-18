@@ -7,18 +7,19 @@ import SEO from "../components/seo"
 import styled from "styled-components"
 import { Button } from "../components/Button"
 import { FaApple } from "react-icons/fa"
-import Section from "../components/section/section"
-
+import Info from "../components/info"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <Info />
+    <Link to="/images/">Navigate to images page</Link>
     <h1>Hello You!</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Section />
       <Image />
     </div>
+
     <FaApple className="icon" />
     <Button>I'm a button</Button>
     <ul>
