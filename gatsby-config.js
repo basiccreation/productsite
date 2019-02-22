@@ -22,6 +22,13 @@ module.exports = {
         // Add any options here
       },
     },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId:`aoz4rbv69zm8`,
+        accessToken:`09d062121ba0695fcc67bf9659908109b76304e61a28cdf0cd9f31f31c901bfc`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
