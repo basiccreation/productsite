@@ -25,8 +25,9 @@ export default function productss({ data }) {
                                 {product.price}
                             </span>
                         </h3>
-                        <p>{product.description.description}</p>
-                        <Link to="/">Details</Link>
+                        {/*<p>{product.description.description}</p>*/}
+
+                        <Link to={`/product/${product.title}`}>Details</Link>
                     </div>
                 )
             })}
